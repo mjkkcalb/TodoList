@@ -1,15 +1,20 @@
 {
+  "homepage": "https://mjkkcalb.github.io/TodoList/",
   "name": "toyproject2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build" 
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
